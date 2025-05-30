@@ -7,6 +7,16 @@ import Home from './pages/Home';
 import Cont from './pages/Cont';
 import Typo from './pages/Typo';
 import Color from './pages/Color';
+import Table from './pages/Table';
+import Img from './pages/Img';
+import Jumbo from './pages/Jumbo';
+import Alerts from './pages/Alerts';
+import Btn from './pages/Btn';
+import Badges from './pages/Badges';
+import Progress from './pages/Progress';
+import Cards from './pages/Cards';
+import Layer from './pages/Layer';
+
 
 
 export default function App(){
@@ -18,6 +28,15 @@ export default function App(){
           <Route path="container" element={<Cont/>}></Route>{/* 서브페이지 */}
           <Route path="typo" element={<Typo/>}></Route>
           <Route path="color" element={<Color/>}></Route>
+          <Route path="table" element={<Table/>}></Route>
+          <Route path="img" element={<Img/>}></Route>
+          <Route path="jumbo" element={<Jumbo/>}></Route>
+          <Route path="alerts" element={<Alerts/>}></Route>
+          <Route path="button" element={<Btn/>}></Route> 
+          <Route path="badges" element={<Badges/>}></Route>
+          <Route path="Progress" element={<Progress/>}></Route>
+          <Route path="Cards" element={<Cards/>}></Route>
+          <Route path="Layer" element={<Layer/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

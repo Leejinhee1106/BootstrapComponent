@@ -18,6 +18,7 @@ const Color = () => {
                 <p className='text-light'><span className='bg-dark'>light</span></p>
                 <p className='text-white'><span className='bg-dark'>white</span></p>
                 </Col>
+                <Col>
                 <h1>bg-color</h1>
                 <div className="bg-primary p-3 text-white">primary</div>
                 <div className="bg-success p-3 text-white">success</div>
@@ -27,6 +28,7 @@ const Color = () => {
                 <div className="bg-secondary p-3 text-white">secondary</div>
                 <div className="bg-dark p-3 text-white">dark</div>
                 <div className="bg-light p-3 text-dark">light</div>
+                </Col>
             </Row>
         </Container>
         </>
