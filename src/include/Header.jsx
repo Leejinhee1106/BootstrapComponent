@@ -44,6 +44,9 @@ const Header = () => {
                 <li className="nav-item">
                     <Link  to ="/layer" className="nav-link">Modal</Link>
                 </li>
+                <li className="nav-item">
+                    <Link  to ="/toastm" className="nav-link">ToastMessage</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/> {/*선언하지 않으면 제대로 작동하지 않음*/}

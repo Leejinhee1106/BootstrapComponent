@@ -16,6 +16,7 @@ import Badges from './pages/Badges';
 import Progress from './pages/Progress';
 import Cards from './pages/Cards';
 import Layer from './pages/Layer';
+import ToastM from './pages/ToastM';
 
 
 
@@ -37,6 +38,7 @@ export default function App(){
           <Route path="Progress" element={<Progress/>}></Route>
           <Route path="Cards" element={<Cards/>}></Route>
           <Route path="Layer" element={<Layer/>}></Route>
+          <Route path="ToastM" element={<ToastM/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
