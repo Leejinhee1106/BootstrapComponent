@@ -24,6 +24,21 @@ const Header = () => {
                                     <li className="nav-item"> <Link to="/flex2" className="nav-link">Flex2</Link></li>
                                 </ul>
                             </li>
+
+                             <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">ReactBootstrap</a>
+                                <ul className="dropdown-menu">
+                                    <li className="nav-item"> <Link to="/acc" className="nav-link">Accordion</Link></li>
+                                    <li className="nav-item"> <Link to="/btns" className="nav-link">Buttons</Link></li>
+                                    <li className="nav-item"> <Link to="/fig" className="nav-link">Figure</Link></li>
+                                    <li className="nav-item"> <Link to="/modals" className="nav-link">Modal</Link></li>
+                                    <li className="nav-item"> <Link to="/pagen" className="nav-link">Pagination</Link></li>
+                                    <li className="nav-item"> <Link to="/tabss" className="nav-link">Tabs</Link></li> 
+                                    <li className="nav-item"> <Link to="/tb" className="nav-link">Table</Link></li>
+                                    <li className="nav-item"> <Link to="/tst" className="nav-link">Toast</Link></li>
+                                </ul>
+                            </li>
+
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BootStrap-Component</a>
                                 <ul className="dropdown-menu">
@@ -41,6 +56,7 @@ const Header = () => {
                                     <li className="nav-item"><Link to="/list" className="nav-link">ListGroup</Link></li>
                                     <li className="nav-item"><Link to="/collapse" className="nav-link">Collapse</Link></li>
                                     <li className="nav-item"><Link to="/form" className="nav-link">Form</Link></li>
+                                    <li className="nav-item"><Link to="/ref" className="nav-link">Ref</Link></li>
                                 </ul>
                             </li>
                         </ul>

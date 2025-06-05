@@ -27,6 +27,16 @@ import Flex1 from './pages/Flex1';
 import Flex2 from './pages/Flex2';
 import Hooks from './pages/Hooks';
 import Effect from './pages/Effect';
+import Ref from './pages/Ref';
+
+import Acc from './ReactBoot/Acc';
+import Tabss from './ReactBoot/Tabss';
+import Btns from './ReactBoot/Btns';
+import Fig from './ReactBoot/Fig';
+import Tb from './ReactBoot/Tb';
+import Modals from './ReactBoot/Modals';
+import Pagen from './ReactBoot/Pagen';
+import Tst from './ReactBoot/Tst';
 
 export default function App(){
   return(
@@ -56,6 +66,16 @@ export default function App(){
         <Route path="flex2" element={<Flex2/>}/>
         <Route path="hooks" element={<Hooks/>}/>
         <Route path="effect" element={<Effect/>}/>
+        <Route path="ref" element={<Ref/>}/>
+
+        <Route path="acc" element={<Acc/>}/>
+        <Route path="tabss" element={<Tabss/>}/>
+        <Route path="btns" element={<Btns/>}/>
+        <Route path="fig" element={<Fig/>}/>
+        <Route path="tb" element={<Tb/>}/>
+        <Route path="modals" element={<Modals/>}/>
+        <Route path="pagen" element={<Pagen/>}/>
+        <Route path="tst" element={<Tst/>}/>
       </Route>
   </Routes>
 </BrowserRouter>
